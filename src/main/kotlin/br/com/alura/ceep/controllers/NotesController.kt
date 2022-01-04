@@ -4,7 +4,6 @@ import br.com.alura.ceep.dto.NoteBody
 import br.com.alura.ceep.dto.NoteResponse
 import br.com.alura.ceep.services.NoteService
 import org.springframework.http.ResponseEntity
-import org.springframework.stereotype.Controller
 import org.springframework.web.bind.annotation.*
 import java.util.*
 

@@ -10,9 +10,7 @@ class NoteService(
     private val repository: NoteRepository
 ) {
 
-    fun getAll(): Iterable<Note> {
-        return repository.findAll()
-    }
+    fun getAll(): Iterable<Note> = repository.findAll()
 
     fun save(note: Note): Note = repository.save(note)
 
