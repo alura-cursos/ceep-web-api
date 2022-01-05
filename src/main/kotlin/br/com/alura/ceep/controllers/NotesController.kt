@@ -44,6 +44,7 @@ class NotesController(
             service.delete(id)
             ResponseEntity.ok().build()
         } catch (e: Exception) {
+            e.printStackTrace()
             ResponseEntity.notFound().build()
         }
     }

@@ -23,7 +23,7 @@ class ApplicationLogger(val logger: Logger = LoggerFactory.getLogger(Application
 
     @Around("services() || controllers()")
     @Throws(Throwable::class)
-    fun profile(joinPoint: ProceedingJoinPoint): Any {
+    fun profile(joinPoint: ProceedingJoinPoint): Any? {
         val targetClass = joinPoint.signature.declaringTypeName
         val targetMethod = joinPoint.signature.name
         val targetParameters = joinPoint.args
