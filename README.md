@@ -1,6 +1,6 @@
-# ![Thumbnail](https://user-images.githubusercontent.com/8989346/148251088-b6b4797e-a228-4d92-b049-a94d9d163dfd.png)
+![Thumbnail](https://user-images.githubusercontent.com/8989346/148251088-b6b4797e-a228-4d92-b049-a94d9d163dfd.png)
 
-Ceep web API
+# Ceep web API
 
 Projeto em Spring Boot com Kotlin que oferece uma Web API de um CRUD para notas com título, descrição e imagem.
 
