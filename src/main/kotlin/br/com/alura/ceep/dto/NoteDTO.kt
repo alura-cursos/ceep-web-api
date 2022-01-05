@@ -7,18 +7,18 @@ class NoteResponse(note: Note) {
     val id = note.id
     val titulo = note.title
     val descricao = note.description
-    val image = note.image
+    val imagem = note.image
 }
 
 class NoteBody(
     titulo: String,
     descricao: String,
-    image: String? = null
+    imagem: String? = null
 ) {
     val note: Note = Note(
         title = titulo,
         description = descricao,
-        image = image
+        image = imagem
     )
 
     fun createWithId(id: UUID) = Note(
