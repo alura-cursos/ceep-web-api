@@ -161,8 +161,6 @@ Você pode testar a aplicação utilizando o Postman também, você pode [baixar
 
 > Para fazer o teste, você precisa acessar o Postman, de preferência o cliente desktop, e fazer o [processo de importação](https://learning.postman.com/docs/getting-started/importing-and-exporting-data/#importing-data-into-postman).
 
--->
-
 ## 📝 Modificando porta de execução da aplicação
 
 Por padrão o Spring Boot vai rodar a aplicação na porta `8080`, mas é possível modificar a porta caso seja necessário:
