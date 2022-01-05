@@ -155,9 +155,9 @@ A partir desse momento, é só acessar a baseUrl (por padrão "http://localhost:
 
 > **Observações**: evite rodar o JAR em algum local que exija mais privilégios para executar ou criar arquivos.
 
-<!-- ## 🧪 Testando a API com o Postman
+## 🧪 Testando a API com o Postman
 
-Você pode testar a aplicação utilizando o Postman também, você pode [baixar o zip com a collection com todos os exemplos](https://github.com/alexfelipe/alura-ponto/archive/refs/heads/postman.zip). 
+Você pode testar a aplicação utilizando o Postman também, você pode [baixar o zip com a collection com todos os exemplos](https://github.com/alura-cursos/ceep-web-api/archive/refs/heads/postman.zip). 
 
 > Para fazer o teste, você precisa acessar o Postman, de preferência o cliente desktop, e fazer o [processo de importação](https://learning.postman.com/docs/getting-started/importing-and-exporting-data/#importing-data-into-postman).
 
