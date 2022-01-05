@@ -1,0 +1,114 @@
+{
+	"info": {
+		"_postman_id": "7f352149-902a-40f8-8be9-62a640650cbd",
+		"name": "Ceep",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8080/notas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/notas",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"notas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/notas",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"titulo\" : \"test 1\",\r\n    \"descricao\" : \"test 2\",\r\n    \"imagem\" : \"https://images.pexels.com/photos/3862132/pexels-photo-3862132.jpeg\"\r\n}"
+				},
+				"url": {
+					"raw": "localhost:8080/notas",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"notas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/notas",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"titulo\" : \"nota existente\",\r\n    \"descricao\" : \"alterando nota existente\",\r\n    \"imagem\" : \"https://images.pexels.com/photos/3721597/pexels-photo-3721597.jpeg\"\r\n}"
+				},
+				"url": {
+					"raw": "localhost:8080/notas/7f811a41-623a-4451-a4e8-5fc81eb2f114",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"notas",
+						"7f811a41-623a-4451-a4e8-5fc81eb2f114"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/notas",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:8080/notas/7f811a41-623a-4451-a4e8-5fc81eb2f114",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"notas",
+						"7f811a41-623a-4451-a4e8-5fc81eb2f114"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
