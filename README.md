@@ -10,7 +10,7 @@ A aplicação salva, altera, lista e remove notas. Todos os comportamentos são 
 
 ### Endpoints
 
-- `GET`: devolve a lista de todos as notass -> "baseUrl/notas"
+- `GET`: devolve a lista de todos as notas -> "baseUrl/notas"
 ```
 //exemplo de resposta
 [
